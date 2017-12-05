@@ -1,0 +1,47 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+*:focus {
+  outline:none;
+}
+
+body {
+  background-color:white;
+  font-family: 'Cabin', sans-serif;
+}
+
+#title {
+  text-align:center;
+  color:#815fc0;
+  text-decoration:underline;
+  box-shadow:0px 0px 6px;
+  border-radius:5px;
+  margin:2% 28% 5% 28%;
+}
+
+.listItems {
+  border:1px solid black;
+  border-radius:15px;
+  background-color:#5f7cc0;
+  color:white;
+  margin:2%;
+}
+
+#fccPic {
+  width:12%;
+  border-radius:25px;
+  margin:2%;
+  display:inline-block;
+}
+
+.channel {
+  display:inline-block;
+}
+
+.status {
+  font-size:2.5em;
+  color:#b15fc0;
+  font-weight:bold;
+}
