@@ -117,8 +117,11 @@ $(document).ready(function() {
     }
   ];
   $("#listOnline").append("<li class='listItems'><a target='_blank' href='" + twitchSource[0]["stream"]["url"] + "'><img id='fccPic' src='" + twitchSource[0]["stream"]["logo"] + "'/></a><h3 class='channel'>" + twitchSource[0]["stream"]["display_name"] + "</h3><h4>Game: " + twitchSource[0]["stream"]["game"] + "</h4><h5>Status: " + twitchSource[0]["stream"]["status"] + "</h5></li>");
+  
   $("#listOnline").append("<li class='listItems'><a target='_blank' href='" + twitchSource[2]["stream"]["url"] + "'><img id='fccPic' src='" + twitchSource[2]["stream"]["logo"] + "'/></a><h3 class='channel'>" + twitchSource[2]["stream"]["display_name"] + "</h3><h4>Game: " + twitchSource[2]["stream"]["game"] + "</h4><h5>Status: " + twitchSource[2]["stream"]["status"] + "</h5></li>");
+  
   $("#listOffline").append("<li class='listItems'><h3 class='channel'>" + twitchSource[1]["display_name"] + "</h3></li>");
+  
   $("#listOffline").append("<li class='listItems'><h3 class='channel'>" + twitchSource[3]["display_name"] + "</h3></li>");
   
   //Alter background of streams that are offline
